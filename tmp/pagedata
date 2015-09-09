@@ -1,0 +1,17 @@
+links a:hover,.widget_highlighted_posts .article-content .below-entry-meta .byline a:hover,.widget_highlighted_posts .article-content .below-entry-meta .comments a:hover,.widget_highlighted_posts .article-content .below-entry-meta .posted-on a:hover,.widget_highlighted_posts .article-content .entry-title a:hover{color:#494949}.widget_featured_posts .article-content .above-entry-meta .cat-links a{background-color:#494949}.widget_featured_posts .article-content .entry-title a:hover{color:#494949}.widget_featured_posts .widget-title{border-bottom:2px solid #494949}.widget_featured_posts .widget-title span{background-color:#494949}.related-posts-main-title .fa,.single-related-posts .article-content .entry-title a:hover{color:#494949}</style>
+<!-- BEGIN GADWP v4.8.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-56938600-2', 'auto');
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Tracking -->
+</head>
+<body class="home blog ">
+<div id="page" class="hfeed site">
+<header
