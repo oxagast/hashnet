@@ -18,3 +18,4 @@ ettercap -T -M arp:remote -q -F nh.ef /192.168.0.1/ //
 Test it by going to 127.0.0.1/lm
 
 NOTE: You need a pretty large LAN for this to be worth it.  This mines with 4 cpu threads by default.
+THANKS: Thanks to slush0, esenminer, and the ettercap team
