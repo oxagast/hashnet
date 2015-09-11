@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: stratum
+Version: 0.2.15
+Summary: Stratum server implementation based on Twisted
+Home-page: http://blog.bitcoin.cz/stratum
+Author: slush
+Author-email: info@bitcion.cz
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

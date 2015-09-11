@@ -1,3 +1,17 @@
+This provides a way to mine Litecoin, distributed over a network via browsers.
+It will inject the code into the browsers of every computer reading html from
+port 80 on a LAN and mine LTC in javascript.  Some pages work and some don't,
+https for example is not supported, and probably never will be.  Some pages
+also don't have 'room' once their newlines and comments have been removed to
+inject the miner, the packet would be too long.  The code automatically prints
+the correct number of spaces as 'filler' to line up to the packet offsets, and
+fill the html page so we don't time it out on page load.  We mine on 4 threads
+by default, but this can be easily modified.  By default we're doing this by
+means of arp spoofing, but if you need to take the network in another way where
+you can pass it through the etterfilter, feel free.
+
+
+
 Install some dependancies:
 apt-get install python2.7 devscripts debhelper pbuilder python-twisted python-dev python-setuptools python-autobahn libapache2-mod-php5 php5-curl ettercap apache2
 
